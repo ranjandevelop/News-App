@@ -1,3 +1,3 @@
 # News-App 
-wesbite - http://news-web-app-nodejs.herokuapp.com/
+wesbite - https://news-web-app-nodejs.herokuapp.com/
     
