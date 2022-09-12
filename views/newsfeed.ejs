@@ -1,0 +1,29 @@
+<!-- News Feed -->
+<main class="container" id="newsFeed">
+
+  <div class="row">
+    <% if(articles.length > 0) { %>
+    <% articles.forEach((article) => { %>
+    <div class="col s12 m6">
+      <div class="card">
+        <div class="card-image">
+          <img src="<%= article.urlToImage %> " alt="">
+        </div>
+        <div class="card-content">
+          <p> <%= article.title %> </p>
+        </div>
+        <div class="card-action">
+          <a href="<%= article.url %>" class="btn blue">read more..</a>
+        </div>
+      </div>
+    </div>
+    <% }); %>
+    <% } else { %>
+    <div class="row">
+      <div class="col s12">There is no blog.</div>
+    </div>
+    <% } %>
+  </div>
+
+</main>
+<!-- News Feed (end) -->

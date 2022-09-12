@@ -1,0 +1,29 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "A web application shows news article from around the world.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app",
+    "dev": "nodemon server/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjandevelop/News-App.git"
+  },
+  "author": "ranjandevelop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranjandevelop/News-App/issues"
+  },
+  "homepage": "https://github.com/ranjandevelop/News-App#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
